@@ -96,6 +96,7 @@ WebUI.refresh()
 
 WebUI.delay(5)
 WebUI.refresh()
+WebUI.executeJavaScript('window.scrollTo(0,document.body.scrollHeight)', null)
 WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('status/Page_Messaging Service  F1Soft  Viber/td_0'), '1')
