@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is smoke testcase</description>
+   <name>Promotion creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e5d7410-2fd2-46fc-987f-27001b128ee4</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\subpa\\\\Downloads\\\\my number.csv'</defaultValue>
+      <description></description>
+      <id>42f13a2c-6591-4a63-a4ed-dcfb3b44f583</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>4db46933-c640-420e-a1be-5b9172e44dd8</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

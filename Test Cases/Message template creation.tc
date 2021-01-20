@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Message template creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efd7f4be-1875-41ea-ae07-9f4952e9305f</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\subpa\\\\Desktop\\\\logo-200.PNG'</defaultValue>
+      <description></description>
+      <id>b06d5940-6cba-4bd5-a27d-094dec3301c3</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
