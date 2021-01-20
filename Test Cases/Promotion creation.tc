@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>3e5d7410-2fd2-46fc-987f-27001b128ee4</testCaseGuid>
    <variable>
-      <defaultValue>'C:\\\\Users\\\\subpa\\\\Downloads\\\\my number.csv'</defaultValue>
+      <defaultValue>file.getAbsolutePath()</defaultValue>
       <description></description>
       <id>42f13a2c-6591-4a63-a4ed-dcfb3b44f583</id>
       <masked>false</masked>

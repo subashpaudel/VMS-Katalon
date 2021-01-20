@@ -19,9 +19,12 @@ import java.math.BigInteger as BigInteger
 import java.security.SecureRandom as SecureRandom
 import java.util.List as List
 import org.openqa.selenium.WebElement as WebElement
-import java.util.UUID;
+import java.util.UUID as UUID
+import java.io.File as File
 
-String uuid = UUID.randomUUID().toString();
+String uuid = UUID.randomUUID().toString()
+
+File file = new File('file\\my number.csv')
 
 WebUI.openBrowser('')
 
@@ -63,7 +66,7 @@ for (int i = 0; i < listofelements.size(); i++) {
 
 //WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/li_This is sms fail over test'))
 WebUI.uploadFile(findTestObject('File upload/Page_Messaging Service  F1Soft  Viber/input__create_promotion_formcsvFile'), 
-    file)
+    file.getAbsolutePath())
 
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/input_Deliver Before_create_promotion_formd_6c959e'))
 
@@ -88,10 +91,6 @@ WebUI.delay(5)
 WebUI.executeJavaScript('window.scrollTo(0,document.body.scrollHeight)', null)
 
 WebUI.delay(5)
-
-
-
-
 
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/td_1'))
 

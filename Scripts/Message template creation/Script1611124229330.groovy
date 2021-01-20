@@ -18,8 +18,11 @@ import org.openqa.selenium.Keys as Keys
 import java.math.BigInteger as BigInteger
 import java.security.SecureRandom as SecureRandom
 import java.util.UUID;
+import java.io.File as File
 
 String uuid = UUID.randomUUID().toString();
+
+File file = new File('file\\logo-200.png')
 
 WebUI.openBrowser('')
 
@@ -65,7 +68,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Messaging Service  F1Soft  
     'https://f1soft.com')
 
 WebUI.uploadFile(findTestObject('File upload 1/Page_Messaging Service  F1Soft  Viber/input__create_message_template_formviberBusinessTemplateimage'), 
-    variable)
+    file.getAbsolutePath())
 
 WebUI.setText(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/textarea__create_message_template_formsmsTe_3705db'), 
     'This is sms')
