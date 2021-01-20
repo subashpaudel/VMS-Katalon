@@ -81,6 +81,7 @@ WebUI.delay(5)
 
 WebUI.executeJavaScript('window.scrollTo(0,document.body.scrollHeight)', null)
 WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/img'))
 
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/a_Logout'))

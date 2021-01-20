@@ -92,7 +92,19 @@ WebUI.executeJavaScript('window.scrollTo(0,document.body.scrollHeight)', null)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/td_1'))
+WebUI.refresh()
+
+WebUI.delay(5)
+WebUI.refresh()
+WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject('status/Page_Messaging Service  F1Soft  Viber/td_0'), '1')
+
+WebUI.verifyElementText(findTestObject('smsstatus/Page_Messaging Service  F1Soft  Viber/td_0'), '1')
+
+//WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/td_1'))
+
+WebUI.verifyElementText(findTestObject('deliverstatus/Page_Messaging Service  F1Soft  Viber/td_1'), '1')
 
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/img'))
 
