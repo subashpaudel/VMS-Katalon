@@ -24,7 +24,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5260abf6-9f30-4caa-a379-d438214893d8</guid>
+      <guid>530ac765-56ea-448e-be44-56162307493c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Promotion creation</testCaseId>
