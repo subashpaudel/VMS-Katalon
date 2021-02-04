@@ -6,12 +6,12 @@
    <elementGuidId>5f8aa04b-c035-4171-a40a-da6888f19f8f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.pull-right > a.btn.btn-default.btn-flat</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Logout')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.pull-right > a.btn.btn-default.btn-flat</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

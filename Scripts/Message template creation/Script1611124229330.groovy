@@ -21,6 +21,7 @@ import java.util.UUID;
 import java.io.File as File
 
 String uuid = UUID.randomUUID().toString();
+//return testString
 
 File file = new File('file\\logo-200.png')
 
@@ -46,7 +47,7 @@ WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Vi
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/span_Create Message Template'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/input__create_message_template_formtitle'), 
-    uuid)
+   uuid)
 
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/input_Sms_create_message_template_formchannels'))
 

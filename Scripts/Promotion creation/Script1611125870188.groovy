@@ -22,7 +22,9 @@ import org.openqa.selenium.WebElement as WebElement
 import java.util.UUID as UUID
 import java.io.File as File
 
-String uuid = UUID.randomUUID().toString()
+String id = UUID.randomUUID().toString()
+
+//String returnString = WebUI.callTestCase('Message template creation')
 
 File file = new File('file\\my number.csv')
 
@@ -47,7 +49,7 @@ WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Vi
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/span_Create Promotion'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/input__create_promotion_formtitle'), 
-    uuid)
+    id)
 
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/input_Sms_create_promotion_formchannels'))
 
@@ -57,12 +59,16 @@ List<WebElement> listofelements = WebUI.findWebElements(findTestObject('Object R
     30)
 
 for (int i = 0; i < listofelements.size(); i++) {
-    if (listofelements.get(i).getText().contains('This is sms fail over test')) {
+    if (listofelements.get(i).getText().contains('text')) {
         listofelements.get(i).click()
 
         break
     }
 }
+
+WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/enable_advert'))
+
+
 
 //WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/li_This is sms fail over test'))
 WebUI.uploadFile(findTestObject('File upload/Page_Messaging Service  F1Soft  Viber/input__create_promotion_formcsvFile'), 

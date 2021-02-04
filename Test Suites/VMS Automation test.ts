@@ -24,6 +24,12 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>f6a0de53-96d9-441e-bb15-d13ed0f560ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Advertisement creation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>530ac765-56ea-448e-be44-56162307493c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
