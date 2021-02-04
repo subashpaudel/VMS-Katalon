@@ -108,4 +108,5 @@ WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Vi
 
 
 WebUI.click(findTestObject('Object Repository/Page_Messaging Service  F1Soft  Viber/a_Logout'))
+WebUI.closeBrowser()
 
