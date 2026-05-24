@@ -35,10 +35,10 @@ WebUI.navigateToUrl('https://uat-viber.f1soft.com/business/auth/login')
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Page_Login  Viber Business Message  F1Soft _1949f6/input_Login_email'), 
-    'sanjip.thapa@f1soft.com')
+    '###')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Viber Business Message  F1Soft _1949f6/input_Login_password'), 
-    'cvW8qx4B2o3F4VwP/kNsqA==')
+    '###')
 
 WebUI.click(findTestObject('Object Repository/Page_Login  Viber Business Message  F1Soft _1949f6/button_Login'))
 
